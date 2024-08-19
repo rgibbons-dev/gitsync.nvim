@@ -1,6 +1,6 @@
 # gitsync
 
-simple, small plugin that informs you of whether the a chosen local git repository is out of "sync" with its corresponding remote. 
+simple, small plugin that informs you of whether a chosen local git repository is out of "sync" with its corresponding remote. 
 
 i supply one function, `check_remote(loc)` that triggers this action. all it is doing is running `git fetch && git status` under the hood.
 
